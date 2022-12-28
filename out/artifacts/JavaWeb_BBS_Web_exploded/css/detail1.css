@@ -1,0 +1,30 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(../image/detail1.jpg);
+	background-repeat: no-repeat;
+}
+#bigBox
+{
+	margin: 0 auto;
+	margin-top: 8%;
+	padding: 1.25rem 3.125rem;
+	background-color: #70707090;
+	width: 70%;
+	height: 100%;
+	border-radius: 2rem;
+	text-align: center;
+}
+#bigBox h1
+{
+	color: white;
+}
+#bigBox h2
+{
+	color: white;
+}
+#bigBox h4
+{
+	color: white;
+}

@@ -1,0 +1,42 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(../image/reg1.jpg);
+	background-repeat: no-repeat;
+}
+#bigBox
+{
+	margin: 0 auto;
+	margin-top: 12.5rem;
+	padding: 1.25rem 3.125rem;
+	background-color: #00000090;
+	width: 21.875rem;
+	height: 6.25rem;
+	border-radius: 0.625rem;
+	text-align: center;
+}
+#bigBox h1
+{
+	color: white;
+}
+#bigBox.inputBox
+{
+	margin-top: 3.125rem;
+}
+#bigBox.inputBox.inputText
+{
+	margin-top: 1.25rem;
+}
+#bigBox.inputBox.inputText span
+{
+	color: black;
+}
+#bigBox.inputBox.inputText input
+{
+	border: 0;
+	padding: 0.625rem 0.625rem;
+	border-bottom: 0.0625rem soid white;
+	background-color: #00000000;
+	color: black;
+}
