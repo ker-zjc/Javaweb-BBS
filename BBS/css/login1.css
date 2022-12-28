@@ -1,0 +1,52 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(../image/login_1.jpg);
+	background-repeat: no-repeat;
+}
+#bigBox
+{
+	margin: 0 auto;
+	margin-top: 12.5rem;
+	padding: 1.25rem 3.125rem;
+	background-color: #00000090;
+	width: 12.5rem;
+	height: 6.25rem;
+	border-radius: 0.625rem;
+	text-align: center;
+}
+#bigBox h1
+{
+	color: white;
+}
+#bigBox.inputBox
+{
+	margin-top: 3.125rem;
+}
+#bigBox.inputBox.inputText
+{
+	margin-top: 1.25rem;
+}
+#bigBox.inputBox.inputText span
+{
+	color: black;
+}
+#bigBox.inputBox.inputText input
+{
+	border: 0;
+	padding: 0.625rem 0.625rem;
+	border-bottom: 0.0625rem soid white;
+	background-color: #00000000;
+	color: black;
+}
+#bigBox.loginButton
+{
+	margin-top: 1.875rem;
+	width: 9.375rem;
+	height: 25px;
+	color: white;
+	border: 0;
+	border-radius: 1.25rem;
+	background-image: linear-gradient(to right,#b8cbb 0%,#b8cbb 0%,#b465da 0%,#cf6cc 33%,#ee609c 66%,#ee609c 100%);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8, target-densitydpi=low-dpi" />
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<title></title>
+		<link rel="stylesheet" href="css/login1.css"/>
+	</head>
+	<body>
+		<div id="bigBox">
+			<h1>校园我知道~</h1>
+			<div class="inputBox">
+				<div class="inputText">
+					<span class="iconfont icon-nickname"></span>
+					<input type="text" placeholder="用户名" name="uName">
+				</div>
+				<div class="inputText">
+					<span class="iconfont icon-visible"></span>
+					<input type="password" placeholder="密码" name="uPass">
+				</div>
+			</div>
+			<input class="loginButton" type="button" value="登入" />
+			<input class="loginButton" type="button" value="注册" onclick="jump()"/>
+			<input class="loginButton" type="button" value="忘记密码"  />
+		</div>
+	</body>
+</html>
+<script>
+function jump(){
+	window.location.href="reg.html";
+}
+</script>
