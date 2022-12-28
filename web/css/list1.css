@@ -1,0 +1,26 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(../image/list1.jpg);
+	background-repeat: no-repeat;
+}
+#bigBox
+{
+	margin: 0 auto;
+	margin-top: 10%;
+	padding: 1.25rem 3.125rem;
+	background-color: #64646490;
+	width: 60%;
+	height: 100%;
+	border-radius: 2rem;
+	text-align: center;
+}
+#bigBox h1
+{
+	color: white;
+}
+#bigBox h4
+{
+	color: white;
+}
